@@ -1,3 +1,3 @@
 # deepproject
-this is my first project <br>
-author name - devendra lambat
+This is my first Git Repository <br>
+Author Name - Devendra Lambat
