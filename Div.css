@@ -1,0 +1,6 @@
+div {
+    inline-size: 100px;
+    block-size: 100px;
+    background-color: green;
+    border-radius: 50%;
+}

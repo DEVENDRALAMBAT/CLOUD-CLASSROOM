@@ -1,0 +1,35 @@
+.wrapper {
+    position: relative;
+  }
+  
+  .dashed-box {
+    position: relative;
+    /*z-index: 1;*/
+    border: dashed;
+    block-size: 8em;
+    margin-block-end: 1em;
+    margin-block-start: 2em;
+    background-color: bisque;
+  }
+  .gold-box {
+    position: absolute;
+   /* z-index: 3; /* put .gold-box above .green-box and .dashed-box */
+    background: gold;
+    inline-size: 80%;
+    inset-inline-start: 60px;
+    inset-block-start: 3em;
+  }
+  .green-box {
+    position: absolute;
+    /*z-index: 2; /* put .green-box above .dashed-box */
+    background: lightgreen;
+    inline-size: 20%;
+    inset-inline-start: 65%;
+    inset-block-start: -25px;
+    block-size: 7em;
+    opacity: 0.9;
+  }
+  
+
+
+
