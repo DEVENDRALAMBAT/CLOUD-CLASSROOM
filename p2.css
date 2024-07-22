@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.green-rounded-div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+}

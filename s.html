@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validation</title>
+</head>
+
+<body>
+    <script>
+        function validatePassword() {
+            const regex = /^(?=.\d)(?=.[a-z])(?=.[A-Z])(?=.[!@#$%^&*()\-+.]).{6,20}$/;
+            var password = document.myform.password.value;
+            if(regex.test(password)) {
+                window.alert("Format is correct");
+            } else {
+                window.alert("Format is incorrect");
+            }
+            return regex.test(password);
+        }
+    </script>
+
+    <form name="myform" method="post" onsubmit="return validatePassword()">
+        Name: <input type="text" name="name"><br/>
+        Password: <input type="password" name="password"><br/>
+        <input type="submit" value="register">
+    </form>
+</body>
+
+</html>
